@@ -15,12 +15,25 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:id="@+id/editText_user"
-            android:drawableLeft="@drawable/icon_guy" />
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            fontPath="fonts/Lato-Regular.ttf"
+            android:background="@drawable/email_edit_text"
+            android:paddingStart="60dp" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:lines="1"
+            android:textColor="#000000"
+            android:singleLine="true"
+            android:textSize="16dp"
+            fontPath="fonts/Lato-Regular.ttf"
             android:layout_marginVertical="30dp"
             android:id="@+id/editText_password"
-            android:drawableLeft="@drawable/icon_password" />
+            android:background="@drawable/password_edit_text"
+            android:password="true"
+            android:paddingStart="60dp" />
     </LinearLayout>
 </LinearLayout>

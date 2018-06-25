@@ -1,0 +1,6 @@
+﻿{
+    "loginView": {
+        "emailEditTextHint": "E-mail",
+        "passwordEditTextHint": "Palavra-chave"
+    }
+}

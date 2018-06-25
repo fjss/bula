@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+  
+  <item>
+    <shape>
+      <corners android:radius="3dp" />
+      <solid android:color="#ffffff" />
+    </shape>
+  </item>
+  <item
+    android:width="50dp"
+    android:height="50dp">
+    <shape>
+      <solid android:color="#55000000" />
+    </shape>
+  </item>
+  <item    
+    android:start="10dp"
+    android:width="30dp"
+    android:height="30dp"
+    android:gravity="center|start">
+    <bitmap
+      android:src="@drawable/icon_guy"
+      android:tint="#000000"/>
+  </item>
+
+</layer-list >
